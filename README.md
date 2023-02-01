@@ -12,4 +12,4 @@ if(<condition>) { <debugger command> }
 ```
 For challenge (2), printGDB allows the user to specify the format of the output, including spacing, ascii art, number formats etc. by providing a simple format template.
 
-My hope is that printGDB will be the next great advancement in applied technology, analogous to the transition from assembly programming to high-level languages or from hunt-gatherer societies to agriculture-based societies.. I have released printGDB on github under the open source MIT license.
+My hope is that printGDB will be the next great advancement in programming practice, analogous to the transition from assembly programming to high-level languages. I have released printGDB on github under the open source MIT license.
