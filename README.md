@@ -4,7 +4,7 @@ printGDB is a novel debugger that addresses all problems with every other debugg
 
 printGDB addresses both of these challenges. For challenge (1), printGDB debugger does away with obscure commands and keywords. Instead, the programmer can use C/C++ syntax to direct the behavior of the debugger. By leveraging programmers' pre-existing familiarity with C/C++, it becomes easy for them to use the debugger. For example, with gdb you would set a conditional breakpoint like this:
 ```
-(gdb) condition <breakpoint_number> condition
+(gdb) condition <breakpoint> <condition>
 ```
 Whereas with printGDB, you can simply use C-style syntax to do:
 ```
